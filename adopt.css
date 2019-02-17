@@ -1,0 +1,101 @@
+/* Note to students: Some properties are given to you to fill out,
+others you can modify as they stand, and if you have time,
+there are definitely some properties you should add!*/
+
+html {
+    height: 100%;
+  }
+  body {
+     width: 100%;
+     height: 100%;
+     background-color: rgb(200, 197, 231);
+  }
+  header {
+      background-color: rgb(21, 18, 54);
+      border: 10px solid maroon;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: whitesmoke;
+      padding: 6px;
+      margin: 40px;
+      font-size: 30px;
+      color: gold;
+      font-family: Helvetica; 
+      display: block;
+      text-align: center;
+  }
+  nav {
+      float: left;
+      width: 96%;
+      border: 2px solid maroon;
+      margin: 10px;
+      padding: 8px;
+      background-color: #9C91FF;
+      font-family: helvetica;
+      color: black;
+
+  }
+  nav ul {
+      padding: 2px;
+      border:2px;
+      float: left;
+      border-bottom: ;
+      list-style-type: none;
+  }
+  nav li {
+      float: left;
+  }
+  nav li a {
+      display: block;
+      height: 25px;
+      padding: 12px 18px 8px 18px;
+      vertical-align: middle;
+  }
+  a {
+      color: ;
+  }
+  section {
+    width: 75%;
+    display: inline-block;
+    font-family: Helvetica;
+    border-color: rgb(200, 197, 231);
+    background-color: rgb(200, 197, 231);
+    margin-left: 180px;
+  }
+  h2 {
+      text-align: center;
+      font-size: 30px;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color:rgb(21, 18, 54);
+  }
+  h3 {
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: rgb(21, 18, 54);
+  }
+
+  th,
+td {
+  padding: 10px;
+  border: solid 2px;
+  border-color: maroon;
+  background-color: #9C91FF;
+  text-align: center;
+  font-family: Helvetica;
+}
+  aside {
+      width: 17%;
+      display: inline-block;
+      background-color:;
+      padding:;
+      min-height: 100%;
+  }
+  aside ul {
+      list-style-type: none;
+  }
+  footer {
+      width: 790px;
+      background-color:;
+      color:;
+      clear: both;
+      display: block;
+  }
+  
